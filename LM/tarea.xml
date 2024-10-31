@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proveedor nombre="Nombre del Proveedor" CIF="12345678A" fecha="YYYY-MM-DD">
+    <Categorias>
+        <Categoria nombre="pequeños">
+            <Vehiculo>
+                <Marca>Ford</Marca>
+                <Modelo>Fiesta</Modelo>
+                <Combustible>gasolina</Combustible>
+                <Transmision>manual</Transmision>
+                <Puertas>5</Puertas>
+                <!-- Opcional: Solo incluir si es de ocasión -->
+                <Kilometraje>50000</Kilometraje>
+                <AñoPrimeraMatriculacion>2018</AñoPrimeraMatriculacion>
+                <Colores>
+                    <Color nombre="azul" incrementoPrecio="10"/>
+                    <Color nombre="negro" incrementoPrecio="20"/>
+                    <Color nombre="blanco"/>
+                </Colores>
+                <Precios>
+                    <Precio duracionMeses="12" kilometrajeAnual="10000">300</Precio>
+                    <Precio duracionMeses="24" kilometrajeAnual="15000">280</Precio>
+                </Precios>
+            </Vehiculo>
+        </Categoria>
+        <Categoria nombre="medianos">
+            <Vehiculo>
+                <Marca>Toyota</Marca>
+                <Modelo>Corolla</Modelo>
+                <Combustible>híbrido-gasolina</Combustible>
+                <Transmision>automática</Transmision>
+                <Puertas>4</Puertas>
+                <Colores>
+                    <Color nombre="gris"/>
+                    <Color nombre="rojo" incrementoPrecio="15"/>
+                </Colores>
+                <Precios>
+                    <Precio duracionMeses="12" kilometrajeAnual="10000">350</Precio>
+                    <Precio duracionMeses="36" kilometrajeAnual="20000">320</Precio>
+                </Precios>
+            </Vehiculo>
+        </Categoria>
+        <!-- Otras categorías -->
+    </Categorias>
+</Proveedor>
