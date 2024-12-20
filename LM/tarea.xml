@@ -8,7 +8,6 @@
                 <Combustible>gasolina</Combustible>
                 <Transmision>manual</Transmision>
                 <Puertas>5</Puertas>
-                <!-- Opcional: Solo incluir si es de ocasión -->
                 <Kilometraje>50000</Kilometraje>
                 <AñoPrimeraMatriculacion>2018</AñoPrimeraMatriculacion>
                 <Colores>
@@ -39,6 +38,5 @@
                 </Precios>
             </Vehiculo>
         </Categoria>
-        <!-- Otras categorías -->
     </Categorias>
 </Proveedor>

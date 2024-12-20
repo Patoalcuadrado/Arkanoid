@@ -49,11 +49,11 @@ export function damageBrick(b) {
         if (gameState.score == brick.columns * brick.rows) {
             var winSound = new Audio('./assets/win.wav');
             winSound.play();
-            // wait 100ms before reloading the page to allow the audio to play
+            // wait 200ms before reloading the page to allow the audio to play
             setTimeout(function () {
                 alert("GANASTE!");
                 document.location.reload();
-            }, 100);
+            }, 200);
         }
     }
 }

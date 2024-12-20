@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<residencia>
+    <juegos>
+        <juego nombre='Petanca'>
+            <id_juego>J001</id_juego>
+            <Jugadores_min>2</Jugadores_min>
+            <jugadores_max>8</jugadores_max>
+            <descripcion>Es un juego donde el objetivo es dejat una bola de acero lo mas cerca de la bola de madera lo mas que se pueda.</descripcion>
+         </juego>
+        <juego nombre='domino'>
+            <id_juego>J002</id_juego>
+            <jugadores_min>2</jugadores_min>
+            <jugadores_max>4</jugadores_max>
+            <descripcion>El objetivo del juego es de quedarte sin fichas, colocando las que tienes en la zona que cumpla laas condiciones deseadas</descripcion>
+        </juego>
+        <juego nombre='parchis'>
+            <id_juego>J003</id_juego>
+            <jugadores_min>2</jugadores_min>
+            <jugadores_max>4</jugadores_max>
+            <descripcion>El objetivo de este juego es de llegar al centro del estadio, usando los dados para moverte una distinta cantidad de espacios en el tablero</descripcion>
+        </juego>
+    </juegos>       
+    <socios>
+        <socio>
+            <id_socio>S0002</id_socio>
+            <fecha_registro>21/04/22</fecha_registro>
+            <numero_alquileres>9</numero_alquileres>
+        </socio>
+         <socio>
+            <id_socio>S0003</id_socio>
+            <fecha_registro>04/05/22</fecha_registro>
+            <numero_alquileres>16</numero_alquileres>
+        </socio>
+         <socio>
+            <id_socio>S0004</id_socio>
+            <fecha_registro>21/06/22</fecha_registro>
+            <numero_alquileres>21</numero_alquileres>
+        </socio>
+         <socio>
+            <id_socio>S0005</id_socio>
+            <fecha_registro>26/04/21</fecha_registro>
+            <numero_alquileres>17</numero_alquileres>
+        </socio>
+         <socio>
+            <id_socio>S0006</id_socio>
+            <fecha_registro>01/11/23</fecha_registro>
+            <numero_alquileres>8</numero_alquileres>
+        </socio>
+    </socios>
+    <registros>
+        <registro1 nombre='Torneo de dommino de la residencia'>
+            <fecha>23/12/21</fecha>
+            <numero_participantes>5</numero_participantes>
+            <id_ganador>S0005</id_ganador>
+            <id_juego>J002</id_juego>
+        </registro1>
+    </registros>
+</residencia>

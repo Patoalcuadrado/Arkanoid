@@ -9,7 +9,7 @@ export function keyDownHandler(e) {
     else if (e.keyCode == 37) {
         paddle.leftPressed = true;
     }
-    // if the spacebar is pressed 
+// */
     else if (e.keyCode == 32) {
         gameState.launch = true;
     }

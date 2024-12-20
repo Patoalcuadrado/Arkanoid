@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<protectora nombre="Dogex">
+<!--Aquí te pongo los voluntarios de la protectora-->
+    <voluntarios>
+        <voluntario voluntario_id="AB01">
+            <nombre>María Juana Humos</nombre>
+            <fecha_ingreso>2022/05/15</fecha_ingreso>
+        </voluntario>
+        <voluntario id="CD02">
+            <nombre>Juan Peesh Isreal</nombre>
+            <fecha_ingreso>2021/10/10</fecha_ingreso>
+        </voluntario>
+        <voluntario id="EF03">
+            <nombre>Juan Tutrifor</nombre>
+            <fecha_ingreso>2023/02/20</fecha_ingreso>
+        </voluntario>
+        <voluntario id="GH04">
+            <nombre>Maldy Toslunes</nombre>
+            <fecha_ingreso>2021/9/12</fecha_ingreso>
+        </voluntario>
+    </voluntarios>
+<!--Aquí pongo los animales-->
+    <animales>
+        <animal animal_id="A001">
+            <nombre>Hambre</nombre>
+            <tamano>Pequeño</tamano>
+        </animal>
+        <animal animal_id="A002">
+            <nombre>Guerra</nombre>
+            <tamano>Mediano</tamano>
+        </animal>
+        <animal animal_id="A003">
+            <nombre>Contaminacion</nombre>
+            <tamano>Mediano</tamano>
+        </animal>
+        <animal animal_id="A004">
+            <nombre>Muerte</nombre>
+            <tamano>Grande</tamano>
+        </animal>
+    </animales>
+<!--Aquí pongo los clientes-->
+    <clientes>
+        <cliente cliente_id="CL0001">
+        <nombre>Victor Nepomuceno</nombre>
+        <dni></dni>
+        <fecha_inicial></fecha_inicial>
+        </cliente>
+        <cliente cliente_id="CL0002">
+        <nombre>Javier Gaston</nombre>
+        <dni></dni>
+        <fecha_inicial></fecha_inicial>
+        </cliente>
+        <cliente cliente_id="CL0003">
+        <nombre>Luis Miguel Carrero</nombre>
+        <dni></dni>
+        <fecha_inicial></fecha_inicial>
+        </cliente>
+        <cliente cliente_id="CL0001">
+        <nombre>Jose Antonio DS</nombre>
+        <dni></dni>
+        <fecha_inicial></fecha_inicial>
+        </cliente>
+    </clientes>
+<!--Aquí pongo las adopciones, no estaba seguro de a qué te referías con características, 
+así que he puesto algo que no sé si está bien-->
+    <adopciones>
+        <adopcion>
+            <cliente_id>CL0001</cliente_id>
+            <animal_id>A001</animal_id>
+            <fecha_adopcion>2023/01/15</fecha_adopcion>
+            <importe>120.50</importe>
+            <caracteristicas>
+                <caracteristica>Visita previa realizada</caracteristica>
+                <caracteristica>Seguimiento mensual requerido</caracteristica>
+            </caracteristicas>
+        </adopcion>
+        <adopcion>
+            <cliente_id>CL0002</cliente_id>
+            <animal_id>A002</animal_id>
+            <animal_id>A004</animal_id>
+            <fecha_adopcion>2023/03/22</fecha_adopcion>
+            <importe>375.00</importe>
+            <caracteristicas>
+                <caracteristica>Adopción conjunta con otro animal</caracteristica>
+                <caracteristica>Vivienda con jardín</caracteristica>
+            </caracteristicas>
+        </adopcion>
+        <adopcion>
+            <cliente_id>CL0003</cliente_id>
+            <animal_id>A003</animal_id>
+            <fecha_adopcion>2023/05/10</fecha_adopcion>
+            <importe>200.00</importe>
+            <caracteristicas>
+                <caracteristica>Animal entrenado previamente</caracteristica>
+                <caracteristica>Adopción internacional</caracteristica>
+            </caracteristicas>
+        </adopcion>
+    </adopciones>
+</protectora>

@@ -57,7 +57,7 @@ export var bricks = [];
 
 createBricks();
 
-// create event listeners
+
 document.addEventListener("mousemove", mouseMoveHandler, false);
 document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
@@ -69,7 +69,6 @@ document.getElementById("aimbot").addEventListener("change", function () {
     }
 });
 
-// if the number of columns changes, update the brick width and redraw
 columns.addEventListener("change", function () {
     brick.columns = columns.value;
     brick.width =
